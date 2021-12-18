@@ -1,30 +1,36 @@
+/* Menu */
 .navbar {
     opacity: unset;
     overflow: hidden;
-      
+    width: 100%;
+    background-color: #6495ed;  
   }
   
     .navImg {
+    background-color: #6495ed;
     width: 140px;
     height: 100px;
+    
     }
       
-      .navbar a {
+    .navbar a {
+    background-color: #6495ed;
     float: right;
-    color:#6495ed;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 40px;
     margin-right: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 12px 12px;
+    padding: 12px 12px 12px 12px;
     text-decoration: none;
-    font-size: 18  px;
+    font-size: 20px;
     }
-  
-      
+
     #menu li{
         display: inline;
     }
+    /* /Menu */
+
 
 .acoes{
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -41,6 +47,7 @@
 .acoes-title{
     text-align: center;
     color: #6495ed;
+    margin-top: 40px;
 }
 
 .acoes-p{

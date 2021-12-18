@@ -1,43 +1,7 @@
 *{
 background-color: #ffffff ;
 }
-/* navbar  */
-.navbar {
-    position: absolute;
-    width: 100%;
-    margin: 0px;
-    opacity: unset;
-    overflow: hidden;
-    background-color: transparent;
-    
-}
-.navImg{
-    background-color: transparent;
-    width: 160px;
-    height: 120px;
 
-}
-
-.navbar a{
-    background-color: transparent;
-    float: right;
-    color:rgba(63, 127, 247, 0.822);
-    font-weight: bold;
-    margin-top: 40px;
-    margin-right: 60px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    
-}
-      
-    #menu li{
-        background-color:transparent;
-        display: inline;
-    }
-  
-/*/navbar */
 .parallax{
     background-image: url(/projeto-final-reprograma/img/carrossel/carrossel-2.png);
     min-height: 500px;
@@ -94,6 +58,16 @@ background-color: #ffffff ;
 
  .botao-home{
      align-items: center;
+     margin-bottom: 60px;
+     font-size: 18px;
+     background-color: cornflowerblue;
+     border-radius: 30px;
+     color: #ffffff;
+     border: none;
+     padding: 20px;
+     cursor: pointer;
  }
 
- /* alterar no media query: tamanho das fontes, direção do gradiente, talvez orientação do texto *\
+ 
+
+ 
