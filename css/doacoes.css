@@ -1,7 +1,37 @@
-* {
-    background-color: #ffffff;
+/* Menu */
+  .navbar {
+    opacity: unset;
+    overflow: hidden;
+    width: 100%;
+    background-color: #6495ed;  
   }
-  .container {
+  
+    .navImg {
+    background-color: #6495ed;
+    width: 140px;
+    height: 100px;
+    
+    }
+      
+    .navbar a {
+    background-color: #6495ed;
+    float: right;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+    #menu li{
+        display: inline;
+    }
+    /* /Menu */
+
+    .container {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     text-align: center;
@@ -12,34 +42,6 @@
     align-items: center;
   }
 
-  .navbar {
-    opacity: unset;
-    overflow: hidden;
-      
-  }
-  
-    .navImg {
-    width: 140px;
-    height: 100px;
-    }
-      
-      .navbar a {
-    float: right;
-    color:#6495ed;
-    font-weight: bold;
-    margin-top: 40px;
-    margin-right: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 12px 12px;
-    text-decoration: none;
-    font-size: 20px;
-    }
-  
-      
-    #menu li{
-        display: inline;
-    }
-  
   .doacoes-title {
     text-align: center;
     color: #6495ed;
@@ -64,19 +66,19 @@
   }
   
   .card-dados {
-    background-color: #6495ed;
+    background-color: #6494edd0;
     border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    box-shadow: 10px 10px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
     width: 400px;
     transition: all 0.3s ease-out;
-    background-color: #ffffff;
+  
   }
   
   .dados-title {
     text-align: center;
-    color: #6495ed;
+    color: #ffffff;
     font-size: 25px;
   }
   

@@ -1,4 +1,4 @@
-#inicio {
+    #inicio {
     background-image: url(/projeto-final-reprograma/img/logo-isc/banner-ISC.png);
     background-repeat:no-repeat;
     -webkit-background-size:cover;
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-  body{
+    .body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     min-height: 100vh;
   }
 
-  .navbar {
+    .navbar {
     opacity: unset;
     overflow: hidden;
       
@@ -33,7 +33,7 @@
     height: 100px;
     }
       
-      .navbar a {
+    .navbar a {
     float: right;
     color:#6495ed;
     font-weight: bold;
